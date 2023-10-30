@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Datos de Eventos</title>
+    <title>buscaEvento</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Datos de Eventos</h1>
+      <h1>buscaEvento</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLComponent"></span>
-          UMLComponent
+          <span class="node-icon staruml-icon icon-UMLOperation"></span>
+          UMLOperation
         </span>
         
       </section>
@@ -50,7 +50,10 @@
           <span class="label label-info"><a href='e56856e2fa9f2a2eac29299301ba40ae.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='243f83df89c2f83a89e78e5cd80314e5.html'><span class='node-icon staruml-icon icon-UMLComponent'></span>Datos de Eventos</a></span>
+          <span class="label label-info"><a href='ed0d3db2e2d90bbdf5c4a6602262560d.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOEventos</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='63455dbb644655c09eb14a382c66427f.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>buscaEvento</a></span>
         
       </section>
 
@@ -86,45 +89,12 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-<section class="element-list">
-    <h3>Interfaces</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='ed0d3db2e2d90bbdf5c4a6602262560d.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOEventos</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
 
       
 
       <!-- Component -->
-
-      
-        
-        
 
       
 
@@ -166,6 +136,33 @@
 
       <!-- Parameters -->
 
+      
+      <section>
+        <h3>Parameters</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Direction</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>in</td>
+            <td><a href="989755c25e0f322adbcfcce10994edfe.html">Id</a></td>
+            <td>int </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>return</td>
+            <td><a href="3615018b5ddc15206b41d2527ed64481.html">(unnamed)</a></td>
+            <td><a href='715a419c3e0659aeb8d56874566f1669.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Evento</a> </td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
       
 
       <!-- Diagrams -->
@@ -252,7 +249,7 @@
     
     <tr>
         <td>name</td>
-        <td>Datos de Eventos</td>
+        <td>buscaEvento</td>
     </tr>
     
     
@@ -285,25 +282,8 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     <tr>
-        <td>isAbstract</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isFinalSpecialization</td>
+        <td>isStatic</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -321,9 +301,79 @@
     
     
     <tr>
-        <td>isIndirectlyInstantiated</td>
-        <td><span class='label label-info'>true</span></td>
+        <td>featureDirection</td>
+        <td>provided</td>
     </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>parameters</td>
+        <td>
+            
+            
+            <a href='989755c25e0f322adbcfcce10994edfe.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>Id</a>
+            
+            <span>, </span>
+            <a href='3615018b5ddc15206b41d2527ed64481.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a>
+            
+        </td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>raisedExceptions</td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>concurrency</td>
+        <td>sequential</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isQuery</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>specification</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    
     
     
     
@@ -344,15 +394,6 @@
 
         
         
-<section class="element-list">
-    <h3>Dependencies</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='ed0d3db2e2d90bbdf5c4a6602262560d.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>DAOEventos</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -364,30 +405,12 @@
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='39a28ec46fdd05f197e1928253eff0d8.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de Eventos→DAOEventos)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='39a28ec46fdd05f197e1928253eff0d8.html'><span class='node-icon staruml-icon icon-UMLInterfaceRealization'></span>(Datos de Eventos→DAOEventos)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
